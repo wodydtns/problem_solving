@@ -26,6 +26,7 @@ def solution(board, moves):
         # 바구니에 인형이 없거나, 가장 위에 있는 인형과 다른 경우
         else:
             bucket.append(doll)
+    print(answer)
     return answer
 
 
